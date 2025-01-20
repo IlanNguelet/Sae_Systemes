@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="361f84d3-d9f5-43ac-8f4e-e632469a069e" name="Serveur web" url="http://rapport_sae_machine_virtuelle_NGUELET_OUBENALI_SADDOUKI">
+        <fileTransfer rootFolder="/home/admin_Gr110_Binome03" accessType="SFTP" host="192.168.1.94" port="22" sshConfigId="fef009ea-e82e-481c-9983-0496113eb537" sshConfig="admin_Gr110_Binome03@192.168.1.94:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

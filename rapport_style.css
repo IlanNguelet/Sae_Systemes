@@ -1,0 +1,80 @@
+/* Corps général */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa; /* Couleur de fond claire */
+    color: #212529; /* Couleur du texte */
+    margin: 0;
+    padding: 0;
+}
+
+/* Titres */
+h1 {
+    text-align: center;
+    margin: 20px 0;
+    font-weight: bold;
+    color: #343a40; /* Couleur sombre */
+}
+
+h2, h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #495057; /* Couleur un peu plus claire */
+}
+
+/* Sections */
+.section {
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff; /* Fond blanc pour les sections */
+    border-radius: 10px; /* Coins arrondis */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Ombre légère */
+    max-width: 1000px; /* Largeur maximale des sections */
+}
+
+/* Listes */
+ol, ul {
+    margin-left: 20px;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+/* Images */
+img {
+    display: block;
+    margin: 15px auto;
+    max-width: 100%;
+    height: auto; /* Garder les proportions */
+    border: 1px solid #ddd; /* Bordure légère */
+    border-radius: 8px; /* Coins arrondis */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Ombre légère */
+}
+
+/* Liens */
+a {
+    color: #0d6efd; /* Couleur par défaut Bootstrap */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #0a58ca;
+    text-decoration: underline;
+}
+
+/* Pied de page */
+footer {
+    background-color: #343a40; /* Fond sombre */
+    color: white; /* Texte blanc */
+    padding: 15px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Ajout de styles pour rendre le texte plus lisible */
+p {
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
